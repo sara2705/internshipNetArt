@@ -1,0 +1,129 @@
+.header{
+    background-image: linear-gradient(rgb(243, 242, 223), rgb(238, 228, 118))
+}
+.footer{
+    background-color: red;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 10px;
+}
+.footer li{
+    list-style: none;
+    
+}
+.para-align{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.list-align{
+    text-align: left;
+}
+.footer-margin{
+    padding: 10px;
+}
+hr{
+    background-color: red;
+    height: 2px;
+}
+@media only screen and (max-width: 480px) {
+    /* styles for devices with a maximum screen width of 480px */
+    .header .logo img{
+        width: 100%;
+    }
+    .header .trophy-img img{
+        width: 50%;
+    }
+    .header .img-award img{
+        width: 100%;
+    }
+    .header .img-award{
+        padding: 20px;
+    }
+    .header .motor-img img{
+        width: 100%;
+    }
+    .header .motor-img{
+        padding: 20px;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 1024px) {
+    /* show element on medium-sized screens */
+    .header{
+        margin-bottom: 0;
+    }
+    
+    .header .d-flex{
+        display: flex;
+    }
+    .header .logo img{
+        width: 50%;
+    }
+    .header .trophy-img img{
+       width: 100%;
+    }
+    .header .trophy-img{
+         padding-top: 30px;
+    }
+    .header .motor-img img{
+        width: 100%;
+    }
+    .header .motor-img{
+        padding-right: 20px;
+    }
+    .header .align-content{
+        text-align: left;
+    }
+    .header .img-award img{
+        width:100%
+
+    }
+    .header .img-award{
+        padding-right: 20px;
+    }
+    .header .list-align{
+        padding-right: 10px;
+    }
+   
+    .footer ul{
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+    }
+    
+}
+@media only screen and (min-width: 1025px) {
+    .header{
+        margin-bottom: 0;
+    }
+    .header .logo img{
+        width: 25%;
+    }
+    .header .d-flex{
+        display: flex;
+    }
+    .header .trophy-img img{
+        width: 90%;
+     }
+     
+     .header .motor-img img{
+         width: 75%;
+     }
+     .header .motor-img{
+         padding-right: 20px;
+     }
+     .header .img-award img{
+        width:100%
+
+    }
+    .header .img-award{
+        padding-right: 20px;
+    }
+    .align-content{
+        text-align: left;
+    }
+    .footer ul{
+        display: flex;
+        justify-content: space-evenly;
+        color: white;
+    }
+  }
